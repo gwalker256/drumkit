@@ -18,3 +18,14 @@ area:hover{
 cursor: pointer;
 }
 
+@media only screen and (max-width: 600px) {
+    #wholeKit{
+        margin-left: -250px;
+        transform: scale(0.4);    
+    }
+
+    #container{
+    margin-top:10vh;
+     font-size: 3vw;
+    }
+  }
