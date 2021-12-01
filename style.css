@@ -1,31 +1,31 @@
 #wholeKit{
-display: block;
-margin: auto;
-}
-
-#container{
-display: flex;
-justify-content: space-around;
-text-align: center;
-line-height: 4vw;
-padding-bottom: 1.5vw;
-font-family: 'Outfit', sans-serif;
-font-weight: 100;
-font-size: 1.3vw;
-}
-
-area:hover{
-cursor: pointer;
-}
-
-@media only screen and (max-width: 600px) {
-    #wholeKit{
-        margin-left: -250px;
-        transform: scale(0.4);    
+    display: block;
+    margin: auto;
     }
-
+    
     #container{
-    margin-top:10vh;
-     font-size: 3vw;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 4vw;
+    padding-bottom: 1.5vw;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 100;
+    font-size: 1.3vw;
     }
-  }
+    
+    area:hover{
+    cursor: pointer;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        #wholeKit{
+            margin-left: -250px;
+            transform: scale(0.4);    
+        }
+    
+        #container{
+        margin-top:10vh;
+         font-size: 3vw;
+        }
+      }
